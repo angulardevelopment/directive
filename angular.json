@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "directive-usage"
+  "defaultProject": "directive-usage",
+  "cli": {
+    "analytics": "da919bb7-b5bd-4191-9caf-980f1d7595bc"
+  }
 }
