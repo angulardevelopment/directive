@@ -8,7 +8,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 })
 export class Demo1Component implements OnInit {
-
+title: string = "Custom Directives in Angular";
+  show=true;
   constructor() { }
 
   ngOnInit() {

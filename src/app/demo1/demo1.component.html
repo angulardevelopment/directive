@@ -1,7 +1,20 @@
 <p class="test">
-demo1 works! ViewEncapsulation.Emulated
+ViewEncapsulation
 </p>
-<p class="allaccess">vdfsvd</p>
-<p class="demo1">vdfsvd</p>
+<p class="allaccess">Emulated ViewEncapsulation</p>
+<p class="demo1">Emulated demo1</p>
 
 <app-demo></app-demo>
+
+<h1> {{title}} </h1>
+ 
+Show Me
+<input type="checkbox" [(ngModel)]="show">
+ 
+<div *ttIf="show">
+  Using the ttIf directive
+</div>
+ 
+<div *ngIf="show">
+  Using the ngIf directive
+</div>
